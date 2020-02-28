@@ -110,7 +110,7 @@
 
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                                        <a class=dropdown-item" href="{{ route('logout') }}"
+                                        <a class="dropdown-item" href="{{ route('logout') }}"
 
                                             onclick="event.preventDefault();
 
