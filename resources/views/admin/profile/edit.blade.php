@@ -24,8 +24,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="gender">性別</label>
                         <div class="col-md-10">
-                         　　 <input name="gender" type="radio" value="男性">男性<br />
-                        　　  <input name="gender" type="radio" value="女性">女性
+                         　　 <input type="text" class="form-control" name="gender" value="{{ $profile_form->gender }}">
                             
                         </div>
                     </div>
@@ -33,7 +32,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="hobby">趣味</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="hobby"  rows="5" value="{{ $profile_form->name }}">
+                            <input type="text" class="form-control" name="hobby"  rows="5" value="{{ $profile_form->hobby }}">
                             
                         </div>
                     </div>    

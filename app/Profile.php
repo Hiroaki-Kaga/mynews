@@ -21,5 +21,3 @@ class Profile extends Model
     }
 }
 ?>
-
-
